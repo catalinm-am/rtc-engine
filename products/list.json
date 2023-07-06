@@ -190,5 +190,98 @@
     "price": 0.0,
     "reviews": null,
     "rating": null
-}
+},
+{
+    "id": "fursecuri_cu_ciocolata",
+    "name": "Fursecuri cu ciocolată",
+    "image_url": "https://example.com/fursecuri.jpg",
+    "quantity": "250 g",
+    "description": "Fursecuri faramitate cu ciocolată",
+    "category": "dulciuri",
+    "price": 15.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "fructe_de_padure_congelate",
+    "name": "Fructe de padure congelate",
+    "image_url": "https://example.com/fructe-de-padure.jpg",
+    "quantity": "350 g",
+    "description": "Mix de fructe de padure congelate",
+    "category": "fructe & legume",
+    "price": 10.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "unt",
+    "name": "Unt",
+    "image_url": "https://example.com/unt.jpg",
+    "quantity": "50 g",
+    "description": "Unt topit",
+    "category": "lactate",
+    "price": 5.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "suc_de_lamaie",
+    "name": "Suc de lamaie",
+    "image_url": "https://example.com/suc-de-lamaie.jpg",
+    "quantity": "3",
+    "measure_unit": "buc",
+    "description": "Suc natural de lamaie",
+    "category": "bauturi",
+    "price": 3.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "foi_de_gelatina",
+    "name": "Foi de gelatină",
+    "image_url": "https://example.com/foi-de-gelatina.jpg",
+    "quantity": "4",
+    "measure_unit": "buc",
+    "description": "Foi de gelatină pentru preparate culinare",
+    "category": "alte",
+    "price": 2.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "lapte-condensat-indulcit",
+    "name": "Lapte condensat indulcit",
+    "image_url": "https://example.com/lapte-condensat.jpg",
+    "quantity": "1",
+    "measure_unit": "buc",
+    "description": "Cutie de lapte condensat indulcit",
+    "category": "lactate",
+    "price": 7.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "branza-de-vaci-cu-continut-ridicat-de-grasimi",
+    "name": "Branza de vaci cu continut ridicat de grasimi",
+    "image_url": "https://example.com/branza-de-vaci.jpg",
+    "quantity": "500",
+    "measure_unit": "g",
+    "description": "Branză de vaci cu continut ridicat de grasimi",
+    "category": "lactate",
+    "price": 9.99,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "mascarpone",
+    "name": "Mascarpone",
+    "image_url": "https://example.com/mascarpone.jpg",
+    "quantity": "125",
+    "measure_unit": "g",
+    "description": "Mascarpone",
+    "category": "lactate",
+    "price": 8.99,
+    "reviews": null,
+    "rating": null
+  }
 ] 
