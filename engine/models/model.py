@@ -18,3 +18,16 @@ class Recipe(BaseModel):
     ingredients: List[Ingredient]
     reviews: Optional[int]
     rating: Optional[float]
+
+
+class Product(BaseModel):
+    id: str
+    name: str
+    image_url: str
+    quantity: str
+    measure_unit: str
+    description: str
+    category: str # fructe & legume, carne, lactate, etc
+    price: float
+    reviews: Optional[int]
+    rating: Optional[int]
