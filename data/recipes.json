@@ -1,0 +1,300 @@
+[
+    {
+        "id": "ciorba_radauteana",
+        "name": "Ciorba Radauteana",
+        "image_url": "https://jamilacuisine.ro/wp-content/uploads/2014/03/Ciorba-radauteana.jpg.webp",
+        "category": "Ciorba",
+        "people": 8,
+        "steps": [
+            "Tăiați carnea de pui cu os în bucăți mai mici.",
+            "Într-un vas, amestecați smântâna cu galbenusurile și otetul.",
+            "Adăugați în oală radacinile de păstârnac mici, ceapa, ardeiul gras, morcovul, legatura de patrunjel, telina, cateii de usturoi și foile de dafin.",
+            "Fierbeți totul până când carnea de pui este gata și legumele sunt fierte.",
+            "Scoateți foile de dafin și adăugați sare și piper după gust.",
+            "Adăugați amestecul de smântână și galbenusuri în supa fierbinte, amestecând ușor.",
+            "Gătiți încă 5-10 minute, amestecând constant, dar fără a lăsa ciorba să fiarbă.",
+            "Serviți ciorba Radauteana fierbinte, garnisită cu patrunjel proaspăt."
+        ],
+        "ingredients": [
+            {
+                "name": "Carne de pui cu os",
+                "quantity": "700",
+                "measure_unit": "g"
+            },
+            {
+                "name": "Smantana",
+                "quantity": "300",
+                "measure_unit": "g"
+            },
+            {
+                "name": "Galbenusuri",
+                "quantity": "4",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Otet",
+                "quantity": "3",
+                "measure_unit": "lg"
+            },
+            {
+                "name": "Radacini mici de pastarnac",
+                "quantity": "2",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Cepe",
+                "quantity": "2",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Ardei gras",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Morcov mare",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Legatura patrunjel",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Telina",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Catei de usturoi",
+                "quantity": "3",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Foi de dafin",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "Sare",
+                "quantity": "1",
+                "measure_unit": "lg"
+            },
+            {
+                "name": "Piper",
+                "quantity": "1",
+                "measure_unit": "lg"
+            }
+        ],
+        "reviews": 40,
+        "rating": 4.91
+    },
+    {
+        "id": "indian_chicken_curry",
+        "name": "Indian Chicken Curry",
+        "image_url": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg",
+        "category": "Fel Principal",
+        "people": 8,
+        "steps": [
+            "Se spala pieptul de pui, se sterge de apa si se taie in bucatele potrivite.",
+            "Se pune uleiul la incins intr-o cratita si se pune carnea. Se amesteca, se presara sarea si se lasa sa se rumeneasca pe toate partile, bine. Cand este gata, se scoate carnea pe o farfurie si se pune deoparte.",
+            "In cratita se adauga 1 lg de ulei si ceapa taiata marunt. Se gateste timp de 4-5 minute, amestecand din cand in cand sa nu se arda, pana se inmoaie. Se adauga usturoiul feliat si pudra de ghimbir (sau proaspat daca aveti). Se gatesc impreuna 1-2 minute.",
+            "Se adauga apoi restul condimentelor: turmeric, curry, boiaua iute si piperul. Se amesteca totul pentru cateva secunde apoi se adauga rosiile decojite si taiate cuburi. Se amesteca. Se toarna sosul de rosii si se lasa cateva minute sa fiarba. La final se pune iaurtul si se mai lasa inca 5 minute la foc.",
+            "Conopida se rupe in buchetele mai mici, se spala si se lasa deoparte pana in momentul folosirii.",
+            "Se gusta sosul si se mai condimenteaza cu sare daca este nevoie, apoi se pun bucatile de carne inapoi. Se amesteca si se pune apoi si conopida. Se mai lasa inca 2-3 minute impreuna apoi se garniseste cu patrunjel."
+        ],
+        "ingredients": [
+            {
+                "name": "piept de pui dezosat",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "ulei de floarea soarelui",
+                "quantity": "4",
+                "measure_unit": "lg"
+            },
+            {
+                "name": "sare",
+                "quantity": "2",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "ulei de floarea soarelui",
+                "quantity": "1",
+                "measure_unit": "lg"
+            },
+            {
+                "name": "ceapa galbena",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "catei de usturoi",
+                "quantity": "2",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "pudra ghimbir",
+                "quantity": "1",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "curry",
+                "quantity": "1",
+                "measure_unit": "lg"
+            },
+            {
+                "name": "turmeric",
+                "quantity": "1",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "boia iute",
+                "quantity": "2",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "piper proaspat macinat",
+                "quantity": "1/4 lgt",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "rosii",
+                "quantity": "2",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "sos de rosii",
+                "quantity": "1",
+                "measure_unit": "lgt"
+            },
+            {
+                "name": "iaurt gras",
+                "quantity": "200",
+                "measure_unit": "g"
+            },
+            {
+                "name": "conopida",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "orez fiert",
+                "quantity": "100",
+                "measure_unit": "g"
+            }
+        ],
+        "reviews": 22,
+        "rating": 4.4
+    },
+    {
+        "id": "cheesecake-fructe-padure",
+        "name": "Cheesecake cu fructe de padure",
+        "image_url": "https://d1lqpgkqcok0l.cloudfront.net/site/binaries/_ht_1615547321668/lg/content/gallery/image-components/mega-image-romania-ro/articole-inspiratie/cheesecake/cheesecake-image002-2.jpg?imwidth=1100",
+        "category": "Desert",
+        "people": 3,
+        "steps": [
+            "Amesteca fursecurile faramitate cu untul topit rece si formeaza un blat, intr-o tava rotunda cu fundul detasabil.",
+            "In vasul unui blender, toarna laptele condensat, branza de vaci si mascarpone si amesteca timp de un minut.",
+            "Intre timp, incalzeste sucul de lamaie si adauga in el gelatina inmuiata anterior in apa rece si stoarsa.",
+            "Adauga sucul in amestecul de branza, apoi toarna usor fructele de padure (rezerva cateva pentru decor).",
+            "Toarna crema peste blatul din fursecuri si lasa la frigider cel putin sase ore.",
+            "Inainte de servire, decoreaza cu restul de fructe de padure."
+        ],
+        "ingredients": [
+            {
+                "name": "fursecuri cu ciocolata",
+                "quantity": "250",
+                "measure_unit": "g"
+            },
+            {
+                "name": "fructe de padure congelate",
+                "quantity": "350",
+                "measure_unit": "g"
+            },
+            {
+                "name": "unt",
+                "quantity": "50",
+                "measure_unit": "g"
+            },
+            {
+                "name": "suc de lamaie",
+                "quantity": "3",
+                "measure_unit": "linguri"
+            },
+            {
+                "name": "foi de gelatina",
+                "quantity": "4",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "lapte condensat indulcit",
+                "quantity": "1",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "branza de vaci cu continut ridicat de grasimi",
+                "quantity": "500",
+                "measure_unit": "g"
+            },
+            {
+                "name": "mascarpone",
+                "quantity": "125",
+                "measure_unit": "g"
+            }
+        ],
+        "reviews": 51,
+        "rating": 4.95
+    },
+    {
+        "id": "spaghete_carbonara",
+        "name": "Paste Carbonara",
+        "image_url": "https://savoriurbane.com/wp-content/uploads/2017/08/Spaghete-carbonara-reteta-autentica-italiana-originala-savori-urbane.jpg",
+        "category": "Paste",
+        "people": 4,
+        "steps": [
+            "Pune apa la fiert intr-o cratita incapatoare, cu o lingurita de sare. Cand apa incepe sa fiarba, pune si pastele la fiert pentru 4-5 minute.",
+            "In rastimp insa, pana sa fiarba apa, taie guanciale cubulete.",
+            "Bate ouale cu 40-50 g de branza pecorino (din nou, ideal. Daca nu gasesti, poti folosi si parmezan). Frige guancialele in tigaie fara ulei, pana cand devine crocant si grasimea se topeste.",
+            "Cand pastele au fiert 4-5 minute, scoate-le cu un cleste si pune-le direct peste guanciale. Agita pastele putin pentru un minut, apoi adauga ~o cana de apa de la paste.",
+            "Lasa pastele carbonara sa se raceasca un minut, apoi adauga amestecul de oua si branza, amestecand energic pentru a evita coagularea oualor.",
+            "Pune pastele la foc pentru inca 30-60 secunde, apoi serveste fiecare portie de paste carbonara cu putina branza pecorino rasa deasupra si putin piper proaspat macinat."
+        ],
+        "ingredients": [
+            {
+                "name": "spaghete",
+                "quantity": "400",
+                "measure_unit": "g"
+            },
+            {
+                "name": "guanciale",
+                "quantity": "200",
+                "measure_unit": "g"
+            },
+            {
+                "name": "oua",
+                "quantity": "4",
+                "measure_unit": "buc"
+            },
+            {
+                "name": "branza pecorino",
+                "quantity": "75",
+                "measure_unit": "g"
+            },
+            {
+                "name": "sare",
+                "quantity": "1",
+                "measure_unit": "lg"
+            },
+            {
+                "name": "piper",
+                "quantity": "1",
+                "measure_unit": "lg"
+            }
+        ],
+        "reviews": 95,
+        "rating": 4.93
+    }
+]
