@@ -7,7 +7,9 @@ from starlette.responses import (
 )
 
 from engine.models.model import (Ingredient, Recipe, Product)
-from engine.mock import (get_random_recipes, read_json_file)
+from engine.mock import (get_random_recipes, get_duplicate_recipe)
+from engine.algorithm import (aggregate_ingredients)
+
 
 ## initialize the app
 app = FastAPI( title="Foodie API", description="This is the API for the Foodie app", version="0.1.0")
@@ -38,16 +40,20 @@ async def recipe_to_products(request: str):
     This endpoint will convert a list of recipes to a list of products
     """
 
-    mock_recipe = get_random_recipes(2)
-    # product_list = get_products_from_recipes(request)
+    # mock_recipe = get_random_recipes(2)
+    mock_recipe = get_duplicate_recipe()
+
+    print(mock_recipe)
+
+    product_list = aggregate_ingredients(mock_recipe)
 
 
 
-    data = { "id": "1", "name": "mere", "image_url": "www.example.com",  "quantity": "2", "measure_unit": "g", "description":"", "category":"3", "price": "1.0", "reviews": "2", "rating": "3"}
+    # data = { "id": "1", "name": "mere", "image_url": "www.example.com",  "quantity": "2", "measure_unit": "g", "description":"", "category":"3", "price": "1.0", "reviews": "2", "rating": "3"}
 
-    product = [Product(**data)]
+    # product = [Product(**data)]
 
-    return product
+    return product_list
 
 
 

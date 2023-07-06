@@ -23,7 +23,7 @@ class Recipe(BaseModel):
 class Product(BaseModel):
     id: str
     name: str
-    image_url: str
+    image_url: Optional[str]
     quantity: str
     measure_unit: str
     description: str
