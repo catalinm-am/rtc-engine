@@ -283,5 +283,39 @@
     "price": 8.99,
     "reviews": null,
     "rating": null
+  }, 
+
+  {
+    "id": "18",
+    "name": "pecorino",
+    "image_url": null,
+    "quantity": "250 g",
+    "description": "",
+    "category": "lactate",
+    "price": 35.0,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "19",
+    "name": "Guanciale porc uscat",
+    "image_url": null,
+    "quantity": "300 g",
+    "description": "",
+    "category": "carne",
+    "price": 27.0,
+    "reviews": null,
+    "rating": null
+  },
+  {
+    "id": "20",
+    "name": "Paste spaghete",
+    "image_url": null,
+    "quantity": "500 g",
+    "description": "",
+    "category": "paste",
+    "price": 6.0,
+    "reviews": null,
+    "rating": null
   }
 ] 
