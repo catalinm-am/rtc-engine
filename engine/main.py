@@ -6,7 +6,7 @@ import json
 import openai
 
 # openai.organization = "adore me"
-openai.api_key = "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"
+openai.api_key = ""
 # openai.Model.list()
 
 
