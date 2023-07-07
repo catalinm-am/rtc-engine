@@ -43,7 +43,7 @@ async def recipe_to_products(request: str):
     # mock_recipe = get_random_recipes(2)
     mock_recipe = get_duplicate_recipe()
 
-    print(mock_recipe)
+    # print(mock_recipe)
 
     product_list = aggregate_ingredients(mock_recipe)
 
