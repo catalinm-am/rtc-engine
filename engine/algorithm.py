@@ -195,7 +195,6 @@ def aggregate_ingredients1(recipes: List[Recipe], products: List[Product]= all_a
 
 
 
-
 def aggregate_ingredients2(recipes: List[Recipe], products: List[Product] = all_available_products,  similarity_threshold: float = 0.3) -> dict[str, MultiplierProduct]:
     nlp = spacy.load("ro_core_news_md")
     aggregated_ingredients = {}
