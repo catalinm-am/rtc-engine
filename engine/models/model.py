@@ -31,7 +31,7 @@ class Product(BaseModel):
     description: str
     category: str # fructe & legume, carne, lactate, etc
     price: float
-    multiplier: Optional[int]  # New column for multiplier
+    # multiplier: Optional[int]  # New column for multiplier
 
 
 class MultiplierProduct(Product):

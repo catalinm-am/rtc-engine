@@ -8,7 +8,7 @@ from starlette.responses import (
 
 from engine.models.model import (Ingredient, Recipe, Product)
 from engine.mock import (get_random_recipes, get_duplicate_recipe)
-from engine.algorithm import (aggregate_ingredients)
+from engine.algorithm import (aggregate_ingredients, aggregate_ingredients1, aggregate_ingredients2)
 
 
 ## initialize the app
@@ -43,15 +43,10 @@ async def recipe_to_products(request: str):
     # mock_recipe = get_random_recipes(2)
     mock_recipe = get_duplicate_recipe()
 
-    # print(mock_recipe)
+    print(mock_recipe)
 
-    product_list = aggregate_ingredients(mock_recipe)
+    product_list = aggregate_ingredients2(mock_recipe)
 
-
-
-    # data = { "id": "1", "name": "mere", "image_url": "www.example.com",  "quantity": "2", "measure_unit": "g", "description":"", "category":"3", "price": "1.0", "reviews": "2", "rating": "3"}
-
-    # product = [Product(**data)]
 
     return product_list
 
