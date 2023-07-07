@@ -30,3 +30,7 @@ class Product(BaseModel):
     description: str
     category: str # fructe & legume, carne, lactate, etc
     price: float
+
+
+class InputRecipeURL(BaseModel):
+    url: str
