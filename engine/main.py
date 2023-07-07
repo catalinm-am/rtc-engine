@@ -15,7 +15,7 @@ from starlette.responses import (
     RedirectResponse,
 )
 
-from engine.models.model import (Ingredient, Recipe, Product, InputRecipeURL)
+from engine.models.model import (Ingredient, Recipe, Product, InputRecipeURL, InputRecipes)
 from engine.mock import (get_random_recipes, get_duplicate_recipe)
 from engine.algorithm import (aggregate_ingredients, aggregate_ingredients1, aggregate_ingredients2)
 
@@ -67,22 +67,21 @@ async def setup_request(request: Request, call_next) -> JSONResponse:
 
 
 
-@app.get("/recipe_to_products/{request}")
-async def recipe_to_products(request: str):
+@app.post("/recipe_to_products")
+async def recipe_to_products(request: InputRecipes):
     """
     This endpoint will convert a list of recipes to a list of products
     """
 
     # mock_recipe = get_random_recipes(2)
-    mock_recipe = get_duplicate_recipe()
+    # mock_recipe = get_duplicate_recipe()
+    # print(mock_recipe)
 
-    print(mock_recipe)
-
-    product_list = aggregate_ingredients2(mock_recipe)
-
-
+    product_list = aggregate_ingredients2(request.recipes)
+    product_list = [p.dict() for p in product_list]
+    for p in product_list:
+        p["unit"] = p["multiplier"]
     return product_list
-
 
 
 # @lru_cache(maxsize=32)

@@ -40,3 +40,7 @@ class InputRecipeURL(BaseModel):
 
 class MultiplierProduct(Product):
     multiplier: int
+
+
+class InputRecipes(BaseModel):
+    recipes: List[Recipe]
