@@ -551,8 +551,253 @@ def get_mock_product_list(recipe_name:str):
         "price": 11.5,
         "reviews": null,
         "rating": null
-    }]
+    }],
+
+    "https://pofta-buna.com/salata-boeuf-piept-pui-varianta-romaneasca/" : [
+                    {
+            "id": "156",
+            "name": "Piept de pui dezosat 500g",
+            "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/9c/d9/5b01149bb51d6b2d42edc3f7ce16.jpg",
+            "quantity": 500,
+            "measure_unit": "g",
+            "description": "Puiul Gospodarului",
+            "category": "Carne si Peste",
+            "price": 19.99,
+            "multiplier": 1,
+            "unit": 1
+            },
+
+        {
+            "id": "421",
+            "name": "Morcovi eco 500g",
+            "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/83/96/c77d0e04e790abc415b234b4ca74.jpg",
+            "quantity": "500.0",
+            "measure_unit": "g",
+            "description": "",
+            "category": "Fructe si Legume",
+            "price": 5.97,
+            "reviews": null,
+            "rating": null
+        },
+        {
+        "id": "414",
+        "name": "Cartofi albi România 2.5kg",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/12/a6/9465fd4e6f3f128f2f20550ee81d.jpg",
+        "quantity": "2.5",
+        "measure_unit": "kg",
+        "description": "",
+        "category": "Fructe si Legume",
+        "price": 12.49,
+        "reviews": null,
+        "rating": null
+    },
+
+        {
+        "id": "515",
+        "name": "Gogoșari murați 500g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/35/e5/aa8709f5bd42c9086505ae5ca194.jpg",
+        "quantity": "500.0",
+        "measure_unit": "g",
+        "description": "Biolider",
+        "category": "Fructe si Legume",
+        "price": 12.49,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "3042",
+        "name": "Mazăre verde boabe 680g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/f8/7a/10592f0e85f1135d1a2e5896b0b2.jpg",
+        "quantity": "680.0",
+        "measure_unit": "g",
+        "description": "Contec",
+        "category": "Conserve",
+        "price": 4.45,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "3069",
+        "name": "Castraveți în oțet 680g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/fe/0a/93f20a55bc892474bb6100da166b.jpg",
+        "quantity": "680.0",
+        "measure_unit": "g",
+        "description": "Râureni",
+        "category": "Conserve",
+        "price": 10.5,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "3399",
+        "name": "Măsline negre umplute cu cremă de brânză, în ulei vegetal 235g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/33/cb/0a0147220dd31066c07fca02c125.jpg",
+        "quantity": "235.0",
+        "measure_unit": "g",
+        "description": "Hada",
+        "category": "Conserve",
+        "price": 16.99,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "3580",
+        "name": "Sos de maioneză light 400g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/8a/33/2860465787ff305ac5e03a7b5d5d.jpg",
+        "quantity": "400.0",
+        "measure_unit": "g",
+        "description": "Don Gustosso",
+        "category": "Condimente si Sosuri",
+        "price": 7.99,
+        "reviews": null,
+        "rating": null
+    },
+
+
+
+
+
+
+    ],
+    "https://savoriurbane.com/papanasi-prajiti-reteta-traditionala-cu-smantana-si-dulceata/": [
+        
+    {
+        "id": "824",
+        "name": "Branza de vaci 6% grasime, 200g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/4e/9a/059b63040f847e412df6c398d8e1.jpg",
+        "quantity": "200.0",
+        "measure_unit": "g",
+        "description": "Covalact",
+        "category": "Lactate, Branzeturi si Oua",
+        "price": 7.55,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "1253",
+        "name": "Ouă proaspete de la găini crescute la sol, mărimea M, 10 buc",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/71/9c/0959d595805f2aa499b10a6a745b.jpg",
+        "quantity": "1.0",
+        "measure_unit": "buc",
+        "description": "Din Ogradă",
+        "category": "Lactate, Branzeturi si Oua",
+        "price": 11.99,
+        "reviews": null,
+        "rating": null
+    },
+            {
+        "id": "3659",
+        "name": "Sare de mare iodată 500g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/cc/06/a17e68118fda2f195ab9cd66a3e7.jpg",
+        "quantity": "500.0",
+        "measure_unit": "g",
+        "description": "Kalas",
+        "category": "Condimente si Sosuri",
+        "price": 11.5,
+        "reviews": null,
+        "rating": null
+    },   
+        {
+        "id": "4214",
+        "name": "Zahăr alb 1kg",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/fa/bb/b86de0a243f2e218725ffde30260.jpg",
+        "quantity": "1.0",
+        "measure_unit": "kg",
+        "description": "SOLAND",
+        "category": "Faina si Zahar",
+        "price": 5.59,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "4292",
+        "name": "Coajă rasă de lămâie Finesse 3x2g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/81/7a/ec2192c538e119f99143c0f520e1.jpg",
+        "quantity": "2.0",
+        "measure_unit": "g",
+        "description": "Dr. Oetker",
+        "category": "Faina si Zahar",
+        "price": 6.95,
+        "reviews": null,
+        "rating": null
+    },
+
+        {
+        "id": "4236",
+        "name": "Esență de vanilie 4x2ml",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/5b/1e/b135052fea6b291350f32ae6a245.jpg",
+        "quantity": "2.0",
+        "measure_unit": "ml",
+        "description": "Dr. Oetker",
+        "category": "Faina si Zahar",
+        "price": 4.59,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "4239",
+        "name": "Făină albă de grâu 000 prăjituri 1kg",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/e4/cc/52374b03908ecd01816126dfcc81.jpg",
+        "quantity": "1.0",
+        "measure_unit": "kg",
+        "description": "Dobrogea",
+        "category": "Faina si Zahar",
+        "price": 7.35,
+        "reviews": null,
+        "rating": null
+    },
+    {
+        "id": "4120",
+        "name": "Ulei rafinat de floarea-soarelui 1l",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/c5/ea/83b0f6791080f43570a031340743.jpg",
+        "quantity": "1.0",
+        "measure_unit": "l",
+        "description": "Delicia",
+        "category": "Ulei si Otet",
+        "price": 4.99,
+        "reviews": null,
+        "rating": null
+    },
+
+        {
+        "id": "794",
+        "name": "Smântână 12% grăsime 190g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/cf/13/60193eefa89d2f5a78bfc8fdec70.jpg",
+        "quantity": "190.0",
+        "measure_unit": "g",
+        "description": "HUZUR",
+        "category": "Lactate, Branzeturi si Oua",
+        "price": 2.99,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "4623",
+        "name": "Dulceață de vișine gătită la ceaun pe foc de lemne 380g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/b2/89/a01a9d1f69103b339986c3b28131.jpg",
+        "quantity": "380.0",
+        "measure_unit": "g",
+        "description": "Răzvan",
+        "category": "Dulciuri",
+        "price": 16.99,
+        "reviews": null,
+        "rating": null
+    },
+        {
+        "id": "4720",
+        "name": "Dulceață de afine 360g",
+        "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/9c/6e/683a74854d769423cdfd59abeb9f.jpg",
+        "quantity": "360.0",
+        "measure_unit": "g",
+        "description": "Bun de Tot",
+        "category": "Dulciuri",
+        "price": 21.99,
+        "reviews": null,
+        "rating": null
+    }
+    ]
     }
 
-
     return existing_products_list.get(recipe_name)
+
+
