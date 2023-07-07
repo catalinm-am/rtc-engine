@@ -51,8 +51,8 @@ all_available_products = get_all_available_products()
 
 def get_mock_product_list(recipe_name:str):
     existing_products_list = {
-        "Ciorba Radauteana" : [
-            "piept de pui dezosat" : {
+        "Ciorba Radauteana" : [ 
+            {
             "id": "156",
             "name": "Piept de pui dezosat 500g",
             "image_url": "https://cdn.freshful.ro/media/cache/sylius_shop_product_thumbnail/9c/d9/5b01149bb51d6b2d42edc3f7ce16.jpg",
@@ -149,7 +149,6 @@ def get_mock_product_list(recipe_name:str):
         "reviews": null,
         "rating": null
     },
-
         {
         "id": "427",
         "name": "Țelină rădăcină 1 buc",
@@ -213,7 +212,7 @@ def get_mock_product_list(recipe_name:str):
     } ],
 
 
-    "Indian Chicken Curry" = [
+    "Indian Chicken Curry" : [
             {
             "id": "156",
             "name": "Piept de pui dezosat 500g",
@@ -487,7 +486,6 @@ def get_mock_product_list(recipe_name:str):
         "reviews": null,
         "rating": null
     }
-
     ],
 
     "Paste Carbonara": [
@@ -557,3 +555,4 @@ def get_mock_product_list(recipe_name:str):
     }
 
 
+    return existing_products_list.get(recipe_name)
