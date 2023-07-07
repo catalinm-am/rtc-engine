@@ -15,6 +15,7 @@ class Recipe(BaseModel):
     image_url: str
     category: str
     servings: int
+    new_servings: Optional[int]  # New column for servings
     steps: List[str]
     ingredients: List[Ingredient]
     reviews: Optional[int]
@@ -34,3 +35,8 @@ class Product(BaseModel):
 
 class InputRecipeURL(BaseModel):
     url: str
+    # multiplier: Optional[int]  # New column for multiplier
+
+
+class MultiplierProduct(Product):
+    multiplier: int
