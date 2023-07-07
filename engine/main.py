@@ -78,9 +78,12 @@ async def recipe_to_products(request: InputRecipes):
     # print(mock_recipe)
 
     product_list = aggregate_ingredients2(request.recipes)
-    product_list = [p.dict() for p in product_list]
-    for p in product_list:
-        p["unit"] = p["multiplier"]
+    
+    #add a "unit" key for each Product in product_list
+
+    for key, value in product_list.items():
+        value.unit = value.multiplier
+        
     return product_list
 
 

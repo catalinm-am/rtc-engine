@@ -40,6 +40,7 @@ class InputRecipeURL(BaseModel):
 
 class MultiplierProduct(Product):
     multiplier: int
+    unit: Optional[int]
 
 
 class InputRecipes(BaseModel):
