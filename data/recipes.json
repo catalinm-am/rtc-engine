@@ -2,9 +2,10 @@
     {
         "id": "ciorba_radauteana",
         "name": "Ciorba Radauteana",
+        "description": "Ciorba Radauteana, o reteta usoara, delicioasa si mai lejera decat ciorba de burta, perfecta pentru a satisface toate gusturile. Carnea de pui, legumele si dresul cu smantana creeaza o combinatie savuroasa, iar aroma si culoarea ciorbei vor aduce un strop de prospetime si in zilele de dupa sarbatori sau chiar pentru a remedia o mahmureala. Servita fierbinte, cu ardei iute si patrunjel, aceasta ciorba va cuceri cu siguranta inimile tuturor celor ce o degusta.",
         "image_url": "https://jamilacuisine.ro/wp-content/uploads/2014/03/Ciorba-radauteana.jpg.webp",
-        "category": "Ciorba",
-        "people": 8,
+        "category": "Antreu",
+        "servings": 8,
         "steps": [
             "Tăiați carnea de pui cu os în bucăți mai mici.",
             "Într-un vas, amestecați smântâna cu galbenusurile și otetul.",
@@ -93,9 +94,10 @@
     {
         "id": "indian_chicken_curry",
         "name": "Indian Chicken Curry",
+        "description": "Indian Chicken Curry este o explozie de arome și condimente, un fel de mâncare emblematic al bucătăriei indiene, în care bucăți de carne de pui fragede sunt gătite într-un sos bogat, aromat și cremos, cu o combinație perfect echilibrată de condimente cum ar fi curry, turmeric, ghimbir și garam masala, rezultând un deliciu senzorial ce poate fi savurat alături de orez sau pâine naan proaspătă.",
         "image_url": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg",
         "category": "Fel Principal",
-        "people": 8,
+        "servings": 8,
         "steps": [
             "Se spala pieptul de pui, se sterge de apa si se taie in bucatele potrivite.",
             "Se pune uleiul la incins intr-o cratita si se pune carnea. Se amesteca, se presara sarea si se lasa sa se rumeneasca pe toate partile, bine. Cand este gata, se scoate carnea pe o farfurie si se pune deoparte.",
@@ -192,9 +194,10 @@
     {
         "id": "cheesecake_fructe_padure",
         "name": "Cheesecake cu fructe de padure",
+        "description": "Cheesecake-ul cu fructe de pădure este o decadentă combinație între cremozitatea și bogăția brânzei de vaci și dulceața fructelor proaspete sau congelate de padure, toate învelite într-o crustă crocantă de biscuiți, rezultând o desert irezistibil de aspectuos și delicios, perfect pentru a răsfăța papilele gustative într-o explozie de arome și texturi.",
         "image_url": "https://d1lqpgkqcok0l.cloudfront.net/site/binaries/_ht_1615547321668/lg/content/gallery/image-components/mega-image-romania-ro/articole-inspiratie/cheesecake/cheesecake-image002-2.jpg?imwidth=1100",
         "category": "Desert",
-        "people": 3,
+        "servings": 3,
         "steps": [
             "Amesteca fursecurile faramitate cu untul topit rece si formeaza un blat, intr-o tava rotunda cu fundul detasabil.",
             "In vasul unui blender, toarna laptele condensat, branza de vaci si mascarpone si amesteca timp de un minut.",
@@ -251,9 +254,10 @@
     {
         "id": "spaghete_carbonara",
         "name": "Paste Carbonara",
+        "description": "Paste Carbonara este un clasic al bucătăriei italiene, în care fidelele se îmbrățișează cu un sos cremos, realizat din ouă, parmezan, pancetta crocantă și piper proaspăt măcinat, rezultând o combinație tentantă de texturi și arome bogate, ce vor satisface cu siguranță pofta de paste a oricărui iubitor de gastronomie italiană.",
         "image_url": "https://savoriurbane.com/wp-content/uploads/2017/08/Spaghete-carbonara-reteta-autentica-italiana-originala-savori-urbane.jpg",
         "category": "Paste",
-        "people": 4,
+        "servings": 4,
         "steps": [
             "Pune apa la fiert intr-o cratita incapatoare, cu o lingurita de sare. Cand apa incepe sa fiarba, pune si pastele la fiert pentru 4-5 minute.",
             "In rastimp insa, pana sa fiarba apa, taie guanciale cubulete.",

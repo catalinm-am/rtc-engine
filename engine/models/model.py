@@ -11,9 +11,10 @@ class Ingredient(BaseModel):
 class Recipe(BaseModel):
     id: str
     name: str
+    description: str
     image_url: str
     category: str
-    people: int
+    servings: int
     steps: List[str]
     ingredients: List[Ingredient]
     reviews: Optional[int]
@@ -29,5 +30,3 @@ class Product(BaseModel):
     description: str
     category: str # fructe & legume, carne, lactate, etc
     price: float
-    reviews: Optional[int]
-    rating: Optional[int]
